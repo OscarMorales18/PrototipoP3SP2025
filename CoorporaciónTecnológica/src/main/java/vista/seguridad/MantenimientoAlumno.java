@@ -17,7 +17,7 @@ import Controlador.seguridad.UsuarioConectado;
  *
  * @author visitante
  */
-public class MantenimientoAlumnos extends javax.swing.JInternalFrame {
+public class MantenimientoAlumno extends javax.swing.JInternalFrame {
     
     final int APLICACION=201;
 
@@ -64,7 +64,7 @@ public class MantenimientoAlumnos extends javax.swing.JInternalFrame {
         resultadoBitacora = bitacoraRegistro.setIngresarBitacora(usuarioEnSesion.getIdUsuario(), APLICACION,  "Consulta Datos Alumnos");
     }
 
-    public MantenimientoAlumnos() {
+    public MantenimientoAlumno() {
         initComponents();
         llenadoDeTablas();
         //se quito el llena combos al no contar con empleados

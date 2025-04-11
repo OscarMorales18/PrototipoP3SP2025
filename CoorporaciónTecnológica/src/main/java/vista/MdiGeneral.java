@@ -13,6 +13,7 @@ import java.awt.event.WindowEvent;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import vista.seguridad.MantenimientoBitacora;
+import vista.seguridad.MantenimientoAlumno;
 /**
  *
  * @author visitante
@@ -190,14 +191,15 @@ for (javax.swing.JInternalFrame frame : jDesktopPane1.getAllFrames()) {
     }//GEN-LAST:event_salirSistemaActionPerformed
 
     private void examenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_examenActionPerformed
-        //for (javax.swing.JInternalFrame frame : jDesktopPane1.getAllFrames()) {
-        //frame.dispose(); // Cierra cada ventana abierta
-        //}
-       //MantenimientoBitacora ventana = new MantenimientoBitacora();
-       //jDesktopPane1.add(ventana);
-       //Dimension desktopSize = jDesktopPane1.getSize();
-       //Dimension FrameSize = ventana.getSize();
-       //ventana.setLocation((desktopSize.width - FrameSize.width) / 2, (desktopSize.height - FrameSize.height) / 2);      
+
+        for (javax.swing.JInternalFrame frame : jDesktopPane1.getAllFrames()) {
+        frame.dispose(); // Cierra cada ventana abierta
+    }
+       MantenimientoAlumno ventana = new MantenimientoAlumno();
+       jDesktopPane1.add(ventana);
+       Dimension desktopSize = jDesktopPane1.getSize();
+       Dimension FrameSize = ventana.getSize();
+       ventana.setLocation((desktopSize.width - FrameSize.width) / 2, (desktopSize.height - FrameSize.height) / 2);      
     }//GEN-LAST:event_examenActionPerformed
 
     /**
