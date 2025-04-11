@@ -33,3 +33,4 @@ vista\Login$4.class
 Controlador\seguridad\UsuarioConectado.class
 vista\MdiGeneral$3.class
 vista\seguridad\MantenimientoUsuario$1.class
+Modelo\seguridad\AlumnosDAO.class
