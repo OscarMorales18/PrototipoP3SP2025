@@ -1,0 +1,36 @@
+commit 2fb2a39e033e03666d84d24171201cfa959d8e66 (HEAD -> RamaContenedor9959233070, origin/RamaContenedor9959233070)
+Author: Oscar Morales <omoralesl7@miumg.edu.gt>
+Date:   Fri Apr 11 08:38:25 2025 -0600
+
+    Implementado Mdi General
+
+commit 41ca2d470beb7e6850547fba4d4b7d53afe57b6d (HEAD -> main, origin/main, origin/RamaContenedor9959233070, origin/HEAD, RamaContenedor9959233070)
+Author: Oscar Morales <omoralesl7@miumg.edu.gt>
+Date:   Fri Apr 11 08:43:31 2025 -0600
+
+    Agregando Examen a Seguridad
+
+commit f0ed287f2df93abfac9c7ea0638a5b74b4a9d482 (HEAD -> main, origin/main, origin/HEAD)
+Author: Oscar Morales <omoralesl7@miumg.edu.gt>
+Date:   Fri Apr 11 08:47:32 2025 -0600
+
+    Implementado Java de Alumnos
+
+commit 9dc35b92116ba876895481224e148c56cd7415bc (HEAD -> main, origin/main, origin/HEAD)
+Merge: f0ed287 5955bfd
+Author: Oscar Morales <omoralesl7@miumg.edu.gt>
+Date:   Fri Apr 11 09:04:09 2025 -0600
+
+    Implementando AlumnosDAO
+
+commit a65ee6440350b1704d43c0b49ca248d9f25fcd9d (HEAD -> RamaMantenimientos9959233070, origin/RamaMantenimientos9959233070)
+Author: Oscar Morales <omoralesl7@miumg.edu.gt>
+Date:   Fri Apr 11 09:25:22 2025 -0600
+
+    Mantenimiento Alumnos Completo
+
+commit d9a1183d48985e07a2277e7ff6c1d3cb94d39c30 (origin/RamaMantenimientos9959233070, RamaMantenimientos9959233070)
+Author: Oscar Morales <omoralesl7@miumg.edu.gt>
+Date:   Fri Apr 11 09:47:58 2025 -0600
+
+    Agregando mantenimieto al mdi
