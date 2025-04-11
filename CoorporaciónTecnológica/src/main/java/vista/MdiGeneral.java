@@ -190,7 +190,7 @@ for (javax.swing.JInternalFrame frame : jDesktopPane1.getAllFrames()) {
     }//GEN-LAST:event_salirSistemaActionPerformed
 
     private void examenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_examenActionPerformed
-        for (javax.swing.JInternalFrame frame : jDesktopPane1.getAllFrames()) {
+        //for (javax.swing.JInternalFrame frame : jDesktopPane1.getAllFrames()) {
         //frame.dispose(); // Cierra cada ventana abierta
         //}
        //MantenimientoBitacora ventana = new MantenimientoBitacora();
