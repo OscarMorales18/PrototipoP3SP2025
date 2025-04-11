@@ -3,6 +3,7 @@ vista\seguridad\MantenimientoBitacora$4.class
 Modelo\seguridad\UsuarioDAO.class
 vista\seguridad\MantenimientoUsuario$4.class
 vista\Login$2.class
+Controlador\seguridad\Alumnos.class
 vista\MdiGeneral$1.class
 vista\MdiGeneral.class
 Controlador\seguridad\Bitacora.class
@@ -32,3 +33,4 @@ vista\Login$4.class
 Controlador\seguridad\UsuarioConectado.class
 vista\MdiGeneral$3.class
 vista\seguridad\MantenimientoUsuario$1.class
+Modelo\seguridad\AlumnosDAO.class
