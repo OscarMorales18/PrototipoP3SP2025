@@ -24,14 +24,6 @@
             <Property name="text" type="java.lang.String" value="Operaciones"/>
           </Properties>
           <SubComponents>
-            <Menu class="javax.swing.JMenu" name="MenuMantenimientos">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Mantenimientos"/>
-              </Properties>
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MenuMantenimientosActionPerformed"/>
-              </Events>
-            </Menu>
             <Menu class="javax.swing.JMenu" name="Bitacora">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Bitacora"/>
@@ -56,6 +48,21 @@
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="salirSistemaActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Seguridad"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="examen">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Examen"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="examenActionPerformed"/>
               </Events>
             </MenuItem>
           </SubComponents>

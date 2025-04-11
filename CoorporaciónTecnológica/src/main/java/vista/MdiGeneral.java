@@ -47,10 +47,11 @@ public class MdiGeneral extends javax.swing.JFrame {
         jDesktopPane1 = new javax.swing.JDesktopPane();
         jMenuBar1 = new javax.swing.JMenuBar();
         MenuGeneralSeguridad = new javax.swing.JMenu();
-        MenuMantenimientos = new javax.swing.JMenu();
         Bitacora = new javax.swing.JMenu();
         ConsultaBitacora = new javax.swing.JMenuItem();
         salirSistema = new javax.swing.JMenuItem();
+        jMenu1 = new javax.swing.JMenu();
+        examen = new javax.swing.JMenuItem();
 
         jMenuItem1.setText("jMenuItem1");
 
@@ -72,14 +73,6 @@ public class MdiGeneral extends javax.swing.JFrame {
         );
 
         MenuGeneralSeguridad.setText("Operaciones");
-
-        MenuMantenimientos.setText("Mantenimientos");
-        MenuMantenimientos.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                MenuMantenimientosActionPerformed(evt);
-            }
-        });
-        MenuGeneralSeguridad.add(MenuMantenimientos);
 
         Bitacora.setText("Bitacora");
         Bitacora.addActionListener(new java.awt.event.ActionListener() {
@@ -107,6 +100,18 @@ public class MdiGeneral extends javax.swing.JFrame {
         MenuGeneralSeguridad.add(salirSistema);
 
         jMenuBar1.add(MenuGeneralSeguridad);
+
+        jMenu1.setText("Seguridad");
+
+        examen.setText("Examen");
+        examen.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                examenActionPerformed(evt);
+            }
+        });
+        jMenu1.add(examen);
+
+        jMenuBar1.add(jMenu1);
 
         setJMenuBar(jMenuBar1);
 
@@ -150,10 +155,6 @@ public class MdiGeneral extends javax.swing.JFrame {
                     }
     }
     
-    private void MenuMantenimientosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MenuMantenimientosActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_MenuMantenimientosActionPerformed
-
     private void BitacoraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BitacoraActionPerformed
        MantenimientoBitacora ventana = new MantenimientoBitacora();
        jDesktopPane1.add(ventana);
@@ -187,6 +188,17 @@ for (javax.swing.JInternalFrame frame : jDesktopPane1.getAllFrames()) {
                         System.exit(0);
                     }
     }//GEN-LAST:event_salirSistemaActionPerformed
+
+    private void examenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_examenActionPerformed
+        for (javax.swing.JInternalFrame frame : jDesktopPane1.getAllFrames()) {
+        //frame.dispose(); // Cierra cada ventana abierta
+        //}
+       //MantenimientoBitacora ventana = new MantenimientoBitacora();
+       //jDesktopPane1.add(ventana);
+       //Dimension desktopSize = jDesktopPane1.getSize();
+       //Dimension FrameSize = ventana.getSize();
+       //ventana.setLocation((desktopSize.width - FrameSize.width) / 2, (desktopSize.height - FrameSize.height) / 2);      
+    }//GEN-LAST:event_examenActionPerformed
 
     /**
      * @param args the command line arguments
@@ -227,8 +239,9 @@ for (javax.swing.JInternalFrame frame : jDesktopPane1.getAllFrames()) {
     private javax.swing.JMenu Bitacora;
     private javax.swing.JMenuItem ConsultaBitacora;
     private javax.swing.JMenu MenuGeneralSeguridad;
-    private javax.swing.JMenu MenuMantenimientos;
+    private javax.swing.JMenuItem examen;
     private javax.swing.JDesktopPane jDesktopPane1;
+    private javax.swing.JMenu jMenu1;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem2;
